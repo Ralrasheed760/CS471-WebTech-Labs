@@ -49,7 +49,7 @@ The Follow TCP Stream view displays the complete HTTP conversation for TCP strea
 
 ## TCP Three-Way Handshake
 
-![Figure 4. TCP stream 38](Figure%204.%20TCP%20stream%2038.png)
+![Figure 4. TCP stream 38](Figure%204.%20TCP%20stream%2038..png)
 
 *Figure 4. TCP stream 38. The first packet is the SYN and the packet list also shows SYN-ACK and ACK.*
 
