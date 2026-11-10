@@ -1,0 +1,6 @@
+﻿.venv/
+venv/
+djangoenv/
+__pycache__/
+*.py[cod]
+db.sqlite3
