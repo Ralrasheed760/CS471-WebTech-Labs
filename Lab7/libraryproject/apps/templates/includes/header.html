@@ -1,0 +1,19 @@
+
+{% with request.resolver_match.url_name as url_name %}
+<div class="topnav">
+    <a href="{% url 'books.index' %}"
+       class="{% if url_name == 'books.index' %}active{% endif %}">
+        Home
+    </a>
+
+    <a href="{% url 'books.list_books' %}"
+       class="{% if url_name == 'books.list_books' %}active{% endif %}">
+        List Books
+    </a>
+
+    <a href="{% url 'books.aboutus' %}"
+       class="{% if url_name == 'books.aboutus' %}active{% endif %}">
+        About
+    </a>
+</div>
+{% endwith %}

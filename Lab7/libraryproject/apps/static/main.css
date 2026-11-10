@@ -1,0 +1,113 @@
+﻿/* Lab 5 - HTML and CSS Part 2 */
+
+body {
+    font-family: "Times New Roman", serif;
+}
+
+/* Task 1: Links */
+.links-page h1 {
+    text-align: center;
+}
+
+.links-page a {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    margin: 8px 0;
+    color: blue;
+}
+
+.links-page #link-one {
+    background-color: lightgreen;
+}
+
+.links-page #link-two {
+    background-color: lightgray;
+}
+
+.links-page #link-three {
+    background-color: black;
+    color: white;
+}
+
+.links-page a:visited {
+    color: purple;
+}
+
+.links-page a:hover {
+    background-color: #f8d9e7;
+    color: #a00055;
+}
+
+.links-page a:active {
+    background-color: yellow;
+    color: red;
+}
+
+/* Task 2: Formatting */
+.formatting-page h1 {
+    color: green;
+    background-color: lightyellow;
+    padding: 10px;
+}
+
+/* Task 3: Listing */
+.listing-page h1 {
+    color: white;
+    background-color: teal;
+    padding: 10px;
+}
+
+
+/* Task 4: Tables - Lab 5 reference layout */
+
+.tables-page {
+    font-family: "Times New Roman", serif;
+}
+
+.tables-page .table-one-section,
+.tables-page .table-two-section {
+    text-align: center;
+}
+
+.tables-page h3 {
+    margin-bottom: 8px;
+}
+
+.tables-page table {
+    border-collapse: collapse;
+    margin: 0 auto 18px auto;
+}
+
+.tables-page th,
+.tables-page td {
+    border: 1px solid #777;
+    padding: 4px 8px;
+}
+
+.tables-page .fruit-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tables-page .camelid-table {
+    width: 720px;
+    max-width: 100%;
+}
+
+.tables-page .camelid-table .desert-cell {
+    width: 200px;
+    padding: 8px;
+}
+
+.tables-page .camelid-table img {
+    display: block;
+    width: 100%;
+    height: 145px;
+    object-fit: cover;
+}
+
+.tables-page .camelid-heading {
+    height: 70px;
+    text-align: center;
+}
